@@ -2,7 +2,6 @@ from fastapi.testclient import TestClient
 
 import unittest
 from src.api import app
-import httpx
 
 
 class TestAPI(unittest.TestCase):
